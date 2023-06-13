@@ -1,0 +1,51 @@
+section {
+    width: fit-content;
+}
+
+#display {
+    padding: 8px;
+    border: 1px solid #eee;
+    flex-direction: column;
+    display: flex;
+    width: 91%;
+    align-content: end;
+    flex-wrap: wrap;
+}
+
+#operation {
+    font-size: 12px;
+    margin-left: 2px;
+    padding: 0;
+    align-self: end;
+}
+
+#result {
+    font-size: 18px;
+    align-self: end;
+}
+
+#buttonGroup {
+    padding: 8px;
+    border: 1px solid #eee;
+    width: fit-content;
+}
+
+.gridButtons {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 4px;
+}
+
+.gridButtons button {
+    padding: 16px;
+    cursor: pointer;
+    user-select: none;
+}
+
+#reset {
+    min-width: 100%;
+    padding: 12px;
+    margin: 0px 0px 4px 0px ;
+    cursor: pointer;
+    user-select: none;
+}
